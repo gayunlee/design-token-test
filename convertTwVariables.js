@@ -1,14 +1,15 @@
 const fs = require("fs");
-
 const data = require("./tw.json");
 
 function transformJsonToTw(json) {
   const result = {};
-  for (const key in json) {
-    if (!json[key]?.value) {
-      result[key] = transformJsonToTw(json[key]);
+  const entries = Object.entries(json);
+
+  for (const [key, value] of entries) {
+    if (!value?.value && value?.value !== 0) {
+      result[key] = transformJsonToTw(value);
     } else {
-      result[key] = json[key].value;
+      result[key] = value.value;
     }
   }
 
@@ -17,7 +18,8 @@ function transformJsonToTw(json) {
 
 fs.writeFileSync(
   "./variableOutput.js",
-  "module.exports = " + JSON.stringify(transformJsonToTw(data), null, 2),
+  "export const twVariables = " +
+    JSON.stringify(transformJsonToTw(data), null, 2),
   "utf-8"
 );
 console.log(
