@@ -1,0 +1,23 @@
+name: Design Token Workflow
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Install dependencies
+        run: yarn
+
+      - name: Execute token-transformer command
+        run: npx token-transformer tokens.json tw.json
+
+      - name: Execute convertTwVariables command
+        run: node convertTwVariables.js
