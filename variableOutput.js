@@ -4,13 +4,13 @@ export const twVariables = {
       "background": "#5a67d8",
       "text": "#ffffff"
     },
-    "borderRadius": 8,
-    "borderWidth": 8
+    "borderRadius": "8px",
+    "borderWidth": "8px"
   },
   "card": {
-    "borderRadius": 8,
+    "borderRadius": "8px",
     "background": "#1a202c",
-    "padding": 16
+    "padding": "16px"
   },
   "boxShadow": {
     "default": [
@@ -38,7 +38,7 @@ export const twVariables = {
         "fontFamily": "Inter",
         "fontWeight": "Bold",
         "lineHeight": "110%",
-        "fontSize": 48.829,
+        "fontSize": 195.315,
         "paragraphSpacing": 32,
         "letterSpacing": "-5%"
       },
@@ -46,7 +46,7 @@ export const twVariables = {
         "fontFamily": "Inter",
         "fontWeight": "Regular",
         "lineHeight": "110%",
-        "fontSize": 48.829,
+        "fontSize": 195.315,
         "paragraphSpacing": 32,
         "letterSpacing": "-5%"
       }
@@ -96,32 +96,32 @@ export const twVariables = {
     "default": "#0000004d"
   },
   "dimension": {
-    "scale": 2,
-    "xs": 4,
-    "sm": 8,
-    "md": 16,
-    "lg": 32,
-    "xl": 64
+    "scale": "2px",
+    "xs": "4px",
+    "sm": "8px",
+    "md": "16px",
+    "lg": "32px",
+    "xl": "64px"
   },
   "spacing": {
-    "xs": 4,
-    "sm": 8,
-    "md": 16,
-    "lg": 32,
-    "xl": 64,
+    "xs": "4px",
+    "sm": "8px",
+    "md": "16px",
+    "lg": "32px",
+    "xl": "64px",
     "multi-value": "8 64"
   },
   "borderRadius": {
-    "sm": 4,
-    "lg": 8,
-    "xl": 16,
+    "sm": "4px",
+    "lg": "8px",
+    "xl": "16px",
     "multi-value": "4 8"
   },
   "colors": {
     "black": "#000000",
     "white": "#ffffff",
     "gray": {
-      "100": "#00ffda",
+      "100": "#d9ff00",
       "200": "#edf2f7",
       "300": "#e2e8f0",
       "400": "#ebf8ff",
@@ -245,13 +245,13 @@ export const twVariables = {
     "body": "140%"
   },
   "letterSpacing": {
-    "default": 0,
+    "default": "0px",
     "increased": "150%",
     "decreased": "-5%"
   },
   "paragraphSpacing": {
-    "h1": 32,
-    "h2": 26
+    "h1": "32px",
+    "h2": "26px"
   },
   "fontWeights": {
     "headingRegular": "Regular",
@@ -260,15 +260,15 @@ export const twVariables = {
     "bodyBold": "Bold"
   },
   "fontSizes": {
-    "h1": 48.829,
-    "h2": 39.063,
-    "h3": 31.25,
-    "h4": 25,
-    "h5": 20,
-    "h6": 16,
-    "body": 16,
-    "sm": 13.6,
-    "xs": 10.4
+    "h1": "195.315px",
+    "h2": "39.063px",
+    "h3": "31.25px",
+    "h4": "25px",
+    "h5": "20px",
+    "h6": "16px",
+    "body": "16px",
+    "sm": "13.6px",
+    "xs": "10.4px"
   },
   "tokenSetOrder": {
     "0": "core",
