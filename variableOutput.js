@@ -121,7 +121,7 @@ export const twVariables = {
     "black": "#000000",
     "white": "#ffffff",
     "gray": {
-      "100": "#ff00b3",
+      "100": "#00ffda",
       "200": "#edf2f7",
       "300": "#e2e8f0",
       "400": "#ebf8ff",
