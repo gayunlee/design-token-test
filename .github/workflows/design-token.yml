@@ -4,8 +4,6 @@ on:
   push:
     branches:
       - design
-    paths:
-      - "tokens.json"
 
 jobs:
   createPullRequest:
