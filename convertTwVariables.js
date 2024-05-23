@@ -9,6 +9,9 @@ function transformJsonToTw(json) {
     if (!value?.value && value?.value !== 0) {
       result[key] = transformJsonToTw(value);
     } else {
+      if (typeof value?.value === "number") {
+        result[key] = value?.value + "px";
+      }
       result[key] = value.value;
     }
   }

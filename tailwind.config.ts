@@ -12,7 +12,7 @@ const config: Config = {
       backgroundColor: {
         ...twVariables.bg,
       },
-      color: {
+      textColor: {
         ...twVariables.colors,
       },
       backgroundImage: {
