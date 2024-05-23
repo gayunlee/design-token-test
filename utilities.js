@@ -1,19 +1,19 @@
 export const twUtils = {
   ".typography-H1-Bold": {
-    "fontFamily": "Inter",
     "fontWeight": "Bold",
     "lineHeight": "110%",
-    "fontSize": "78.126px",
+    "fontSize": "39.063px",
     "paragraphSpacing": "32px",
-    "letterSpacing": "-5%"
+    "letterSpacing": "-5%",
+    "fontFamily": "Inter"
   },
   ".typography-H1-Regular": {
-    "fontFamily": "Inter",
     "fontWeight": "Regular",
     "lineHeight": "110%",
     "fontSize": "78.126px",
     "paragraphSpacing": "32px",
-    "letterSpacing": "-5%"
+    "letterSpacing": "-5%",
+    "fontFamily": "600px"
   },
   ".typography-H2-Bold": {
     "fontFamily": "Inter",
