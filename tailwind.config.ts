@@ -23,6 +23,9 @@ const config: Config = {
       fontFamily: {
         ...twVariables.fontFamilies,
       },
+      fontSize: {
+        ...twVariables.fontSizes,
+      },
       colors: {
         "accent-1": "#FAFAFA",
         "accent-2": "#EAEAEA",

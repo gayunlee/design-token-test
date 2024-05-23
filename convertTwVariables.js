@@ -4,15 +4,13 @@ const data = require("./tw.json");
 function transformJsonToTw(json) {
   const result = {};
   const entries = Object.entries(json);
-
   for (const [key, value] of entries) {
     if (!value?.value && value?.value !== 0) {
       result[key] = transformJsonToTw(value);
     } else {
-      if (typeof value?.value === "number") {
-        result[key] = value?.value + "px";
-      }
-      result[key] = value.value;
+      const transformedValue =
+        typeof value?.value === "number" ? value?.value + "px" : value?.value;
+      result[key] = transformedValue;
     }
   }
 

@@ -5,7 +5,7 @@ export default function Home() {
     <main className="w-[300px] h-[300px] bg-muted">
       test
       <div className="bg-white">
-        <h1 className="text-4xl font-extrabold text-gray-100">Text</h1>
+        <h1 className="text-h1 font-extrabold text-gray-100 space-xs">Text</h1>
       </div>
     </main>
   );
