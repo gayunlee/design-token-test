@@ -17,8 +17,6 @@ jobs:
         run: |
           npx token-transformer tokens.json tw.json
           node convertTwVariables.js
-          git config --global user.name "gayunlee" 
-          git config --global user.email "gayunlee11@us-all.co.kr"
           git add .
           git commit -m '피그마 디자인 파일 변환'
           git push
