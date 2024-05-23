@@ -80,11 +80,11 @@ export const twVariables = {
   "fg": {
     "default": "#ffffff",
     "muted": "#e2e8f0",
-    "subtle": "#a0aec0"
+    "subtle": "#ebf8ff"
   },
   "bg": {
     "default": "#1a202c",
-    "muted": "#4a5568",
+    "muted": "#ebf8ff",
     "subtle": "#718096"
   },
   "accent": {
@@ -121,11 +121,11 @@ export const twVariables = {
     "black": "#000000",
     "white": "#ffffff",
     "gray": {
-      "100": "#f7fafc",
+      "100": "#41bfe9",
       "200": "#edf2f7",
       "300": "#e2e8f0",
-      "400": "#cbd5e0",
-      "500": "#a0aec0",
+      "400": "#ebf8ff",
+      "500": "#ebf8ff",
       "600": "#718096",
       "700": "#4a5568",
       "800": "#2d3748",
