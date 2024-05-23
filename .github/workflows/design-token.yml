@@ -13,9 +13,10 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16
-      - name: Run Token Transformer
+      - name: Transform Token To Variables
         run: |
           npx token-transformer tokens.json tw.json
+          node convertTwVariables.js
           git config --global user.name "gayunlee" 
           git config --global user.email "gayunlee11@us-all.co.kr"
           git add .
