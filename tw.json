@@ -64,7 +64,7 @@
           "fontFamily": "Inter",
           "fontWeight": "Bold",
           "lineHeight": "110%",
-          "fontSize": 48.829,
+          "fontSize": 195.315,
           "paragraphSpacing": 32,
           "letterSpacing": "-5%"
         }
@@ -75,7 +75,7 @@
           "fontFamily": "Inter",
           "fontWeight": "Regular",
           "lineHeight": "110%",
-          "fontSize": 48.829,
+          "fontSize": 195.315,
           "paragraphSpacing": 32,
           "letterSpacing": "-5%"
         }
@@ -247,7 +247,7 @@
     },
     "gray": {
       "100": {
-        "value": "#00ffda",
+        "value": "#d9ff00",
         "type": "color"
       },
       "200": {
@@ -704,7 +704,7 @@
   },
   "fontSizes": {
     "h1": {
-      "value": 48.829,
+      "value": 195.315,
       "type": "fontSizes"
     },
     "h2": {
