@@ -38,7 +38,7 @@ export const twVariables = {
         "fontFamily": "Inter",
         "fontWeight": "Bold",
         "lineHeight": "110%",
-        "fontSize": 78.126,
+        "fontSize": 39.063,
         "paragraphSpacing": 32,
         "letterSpacing": "-5%"
       },
@@ -46,7 +46,7 @@ export const twVariables = {
         "fontFamily": "Inter",
         "fontWeight": "Regular",
         "lineHeight": "110%",
-        "fontSize": 78.126,
+        "fontSize": 39.063,
         "paragraphSpacing": 32,
         "letterSpacing": "-5%"
       }
@@ -260,7 +260,7 @@ export const twVariables = {
     "bodyBold": "Bold"
   },
   "fontSizes": {
-    "h1": "78.126px",
+    "h1": "39.063px",
     "h2": "39.063px",
     "h3": "31.25px",
     "h4": "25px",
