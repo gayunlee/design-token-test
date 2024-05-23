@@ -249,7 +249,7 @@
       "Bold": {
         "type": "typography",
         "value": {
-          "fontFamily": "Inter",
+          "fontFamily": 800,
           "fontWeight": "Bold",
           "lineHeight": "110%",
           "fontSize": 78.126,

@@ -1,6 +1,6 @@
 export const twUtils = {
   ".typography-H1-Bold": {
-    "fontFamily": "Inter",
+    "fontFamily": "800px",
     "fontWeight": "Bold",
     "lineHeight": "110%",
     "fontSize": "78.126px",

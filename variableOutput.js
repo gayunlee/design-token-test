@@ -121,7 +121,7 @@ export const twVariables = {
   "typography": {
     "H1": {
       "Bold": {
-        "fontFamily": "Inter",
+        "fontFamily": 800,
         "fontWeight": "Bold",
         "lineHeight": "110%",
         "fontSize": 78.126,
