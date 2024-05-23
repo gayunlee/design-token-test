@@ -1,4 +1,82 @@
-module.exports = {
+export const twVariables = {
+  "button": {
+    "primary": {
+      "background": "#5a67d8",
+      "text": "#ffffff"
+    },
+    "borderRadius": 8,
+    "borderWidth": 8
+  },
+  "card": {
+    "borderRadius": 8,
+    "background": "#1a202c",
+    "padding": 16
+  },
+  "boxShadow": {
+    "default": [
+      {
+        "x": 5,
+        "y": 5,
+        "spread": 3,
+        "color": "#00000026",
+        "blur": 5,
+        "type": "dropShadow"
+      },
+      {
+        "x": 4,
+        "y": 4,
+        "spread": 6,
+        "color": "#00000033",
+        "blur": 5,
+        "type": "innerShadow"
+      }
+    ]
+  },
+  "typography": {
+    "H1": {
+      "Bold": {
+        "fontFamily": "Inter",
+        "fontWeight": "Bold",
+        "lineHeight": "110%",
+        "fontSize": 48.829,
+        "paragraphSpacing": 32,
+        "letterSpacing": "-5%"
+      },
+      "Regular": {
+        "fontFamily": "Inter",
+        "fontWeight": "Regular",
+        "lineHeight": "110%",
+        "fontSize": 48.829,
+        "paragraphSpacing": 32,
+        "letterSpacing": "-5%"
+      }
+    },
+    "H2": {
+      "Bold": {
+        "fontFamily": "Inter",
+        "fontWeight": "Bold",
+        "lineHeight": "110%",
+        "fontSize": 39.063,
+        "paragraphSpacing": 26,
+        "letterSpacing": "-5%"
+      },
+      "Regular": {
+        "fontFamily": "Inter",
+        "fontWeight": "Regular",
+        "lineHeight": "110%",
+        "fontSize": 39.063,
+        "paragraphSpacing": 26,
+        "letterSpacing": "-5%"
+      }
+    },
+    "Body": {
+      "fontFamily": "Roboto",
+      "fontWeight": "Regular",
+      "lineHeight": "110%",
+      "fontSize": 16,
+      "paragraphSpacing": 26
+    }
+  },
   "fg": {
     "default": "#ffffff",
     "muted": "#e2e8f0",
@@ -191,5 +269,11 @@ module.exports = {
     "body": 16,
     "sm": 13.6,
     "xs": 10.4
+  },
+  "tokenSetOrder": {
+    "0": "core",
+    "1": "light",
+    "2": "dark",
+    "3": "theme"
   }
 }
