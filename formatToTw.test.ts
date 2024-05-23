@@ -1,5 +1,6 @@
 import { describe, it, expect } from "vitest";
 import { transformJsonToTw } from "./formatToTw";
+import { convertToUtilities } from "./addedUtils";
 
 const mockResult = {
   accent: {
@@ -41,6 +42,7 @@ const mockJson = {
       type: "color",
     },
   },
+
   color: {
     fuschia: {
       "60": {
@@ -61,8 +63,41 @@ const mockJson = {
   },
 };
 
+const multiValues = {
+  typography: {
+    H1: {
+      Bold: {
+        fontFamily: "Inter",
+        fontWeight: "500",
+        font: 500,
+        lineHeight: "110%",
+        fontSize: "78px",
+        paragraphSpacing: "32",
+        letterSpacing: "-5%",
+      },
+    },
+  },
+};
+
 describe("transformJsonToTw 테스트", () => {
   it("json에서 tailwindcss 변수 객체로 변환", () => {
     expect(transformJsonToTw(mockJson)).toEqual(mockResult);
+  });
+});
+
+describe("transformObjectToClasses 테스트", () => {
+  it("utility 클래스 객체 생성", () => {
+    const transformedMultiValues = convertToUtilities(multiValues);
+    expect(transformedMultiValues).toEqual({
+      ".typography-H1-Bold": {
+        fontFamily: "Inter",
+        fontWeight: "500",
+        font: "500",
+        lineHeight: "110%",
+        fontSize: "78px",
+        paragraphSpacing: "32",
+        letterSpacing: "-5%",
+      },
+    });
   });
 });

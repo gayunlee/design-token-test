@@ -5,10 +5,9 @@ export function transformJsonToTw(json: any): any {
     if (!json[key]?.value) {
       result[key] = transformJsonToTw(json[key]);
     } else {
-      result[key] = json[key].value;
+      result[key] = json[key].value.toString();
     }
   }
 
   return result;
 }
-//

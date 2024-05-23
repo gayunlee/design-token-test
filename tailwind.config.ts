@@ -1,5 +1,7 @@
 import type { Config } from "tailwindcss";
+import plugin from "tailwindcss/plugin";
 import { twVariables } from "./variableOutput";
+import { twUtils } from "./utilities";
 
 const config: Config = {
   content: [
@@ -35,6 +37,10 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    plugin(function ({ addUtilities }) {
+      addUtilities({ ...twUtils });
+    }),
+  ],
 };
 export default config;
