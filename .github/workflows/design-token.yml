@@ -21,3 +21,11 @@ jobs:
 
       - name: Execute convertTwVariables command
         run: node convertTwVariables.js
+
+      - name: Commit changes
+        run: |
+          git config --global user.name "gayunlee"
+          git config --global user.email "gayunlee11@us-all.co.kr"
+          git add .
+          git commit -m "Update tw variables"
+          git push
