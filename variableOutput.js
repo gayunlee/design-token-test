@@ -84,7 +84,7 @@ export const twVariables = {
   },
   "bg": {
     "default": "#1a202c",
-    "muted": "#4a5568",
+    "muted": "#a0aec0",
     "subtle": "#718096"
   },
   "accent": {
