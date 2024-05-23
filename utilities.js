@@ -8,12 +8,12 @@ export const twUtils = {
     "letterSpacing": "-5%"
   },
   ".typography-H1-Regular": {
-    "fontFamily": "Inter",
     "fontWeight": "Regular",
     "lineHeight": "110%",
     "fontSize": "78.126px",
     "paragraphSpacing": "32px",
-    "letterSpacing": "-5%"
+    "letterSpacing": "-5%",
+    "fontFamily": "600px"
   },
   ".typography-H2-Bold": {
     "fontFamily": "Inter",

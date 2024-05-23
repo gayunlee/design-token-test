@@ -129,12 +129,12 @@ export const twVariables = {
         "letterSpacing": "-5%"
       },
       "Regular": {
-        "fontFamily": "Inter",
         "fontWeight": "Regular",
         "lineHeight": "110%",
         "fontSize": 78.126,
         "paragraphSpacing": 32,
-        "letterSpacing": "-5%"
+        "letterSpacing": "-5%",
+        "fontFamily": 600
       }
     },
     "H2": {
