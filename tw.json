@@ -64,7 +64,7 @@
           "fontFamily": "Inter",
           "fontWeight": "Bold",
           "lineHeight": "110%",
-          "fontSize": 78.126,
+          "fontSize": 39.063,
           "paragraphSpacing": 32,
           "letterSpacing": "-5%"
         }
@@ -75,7 +75,7 @@
           "fontFamily": "Inter",
           "fontWeight": "Regular",
           "lineHeight": "110%",
-          "fontSize": 78.126,
+          "fontSize": 39.063,
           "paragraphSpacing": 32,
           "letterSpacing": "-5%"
         }
@@ -704,7 +704,7 @@
   },
   "fontSizes": {
     "h1": {
-      "value": 78.126,
+      "value": 39.063,
       "type": "fontSizes"
     },
     "h2": {
