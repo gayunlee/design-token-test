@@ -229,7 +229,8 @@ export const twVariables = {
       "700": "#b83280",
       "800": "#97266d",
       "900": "#702459"
-    }
+    },
+    "test": "#529d9d"
   },
   "opacity": {
     "low": "10%",
@@ -238,18 +239,22 @@ export const twVariables = {
   },
   "fontFamilies": {
     "heading": "Inter",
-    "body": "Roboto"
+    "body": "Roboto",
+    "work-sans": "Work Sans"
   },
   "lineHeights": {
+    "0": "AUTO",
     "heading": "110%",
     "body": "140%"
   },
   "letterSpacing": {
+    "0": "-2%",
     "default": "0px",
     "increased": "150%",
     "decreased": "-5%"
   },
   "paragraphSpacing": {
+    "0": "0px",
     "h1": "32px",
     "h2": "26px"
   },
@@ -257,7 +262,9 @@ export const twVariables = {
     "headingRegular": "Regular",
     "headingBold": "Bold",
     "bodyRegular": "Regular",
-    "bodyBold": "Bold"
+    "bodyBold": "Bold",
+    "work-sans-0": "Bold",
+    "work-sans-1": "Regular"
   },
   "fontSizes": {
     "h1": "78.126px",
@@ -269,6 +276,64 @@ export const twVariables = {
     "body": "16px",
     "sm": "13.6px",
     "xs": "10.4px"
+  },
+  "#7879F1": "#78e2f1",
+  "Fuschia": {
+    "60": "#fcddec",
+    "80": "#f178b6",
+    "100": "#ef5da8"
+  },
+  "Iris": {
+    "60": "#a5a6f6",
+    "80": "#7879f1",
+    "100": "#5d5fef"
+  },
+  "fontSize": {
+    "0": "13px",
+    "1": "20px",
+    "2": "34px"
+  },
+  "Header 1": {
+    "fontFamily": "Work Sans",
+    "fontWeight": "Bold",
+    "lineHeight": "AUTO",
+    "fontSize": 34,
+    "letterSpacing": "-2%",
+    "paragraphSpacing": 0,
+    "paragraphIndent": "0px",
+    "textCase": "none",
+    "textDecoration": "none"
+  },
+  "Header 2": {
+    "fontFamily": "Work Sans",
+    "fontWeight": "Bold",
+    "lineHeight": "AUTO",
+    "fontSize": 20,
+    "letterSpacing": "-2%",
+    "paragraphSpacing": 0,
+    "paragraphIndent": "0px",
+    "textCase": "none",
+    "textDecoration": "none"
+  },
+  "Body": {
+    "fontFamily": "Work Sans",
+    "fontWeight": "Regular",
+    "lineHeight": "AUTO",
+    "fontSize": 13,
+    "letterSpacing": "-2%",
+    "paragraphSpacing": 0,
+    "paragraphIndent": "0px",
+    "textCase": "none",
+    "textDecoration": "none"
+  },
+  "textCase": {
+    "none": "none"
+  },
+  "textDecoration": {
+    "none": "none"
+  },
+  "paragraphIndent": {
+    "0": "0px"
   },
   "tokenSetOrder": {
     "0": "core",
