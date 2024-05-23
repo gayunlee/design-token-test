@@ -121,20 +121,20 @@ export const twVariables = {
   "typography": {
     "H1": {
       "Bold": {
-        "fontFamily": "Inter",
         "fontWeight": "Bold",
         "lineHeight": "110%",
-        "fontSize": 78.126,
+        "fontSize": 39.063,
         "paragraphSpacing": 32,
-        "letterSpacing": "-5%"
+        "letterSpacing": "-5%",
+        "fontFamily": "Inter"
       },
       "Regular": {
-        "fontFamily": "Inter",
         "fontWeight": "Regular",
         "lineHeight": "110%",
         "fontSize": 78.126,
         "paragraphSpacing": 32,
-        "letterSpacing": "-5%"
+        "letterSpacing": "-5%",
+        "fontFamily": 600
       }
     },
     "H2": {
