@@ -24,6 +24,18 @@ jobs:
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+      - name: Check if PR exists
+        id: check_pr
+        run: |
+          pr_number=$(gh pr list --state open --base main --head design --json number --jq '.[0].number')
+          if [[ -n "$pr_number" ]]; then
+        echo "::set-output name=pr_number::$pr_number"
+          fi
+
+      - name: Close PR if exists
+        if: steps.check_pr.outputs.pr_number
+        run: gh pr close ${{ steps.check_pr.outputs.pr_number }}
+
       - name: Create Pull Request
         run: gh pr create -B main -H design --title '디자인 토큰 업데이트' --body '디자인 토큰 업데이트 및 css 변수 변환'
         env:
