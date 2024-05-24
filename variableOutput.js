@@ -1,4 +1,27 @@
 export const twVariables = {
+  "sm": "22.5rem",
+  "md": "48rem",
+  "lg": "80rem",
+  "xl": "96rem",
+  "space-0": "0rem",
+  "space-1": "0.25rem",
+  "space-2": "0.5rem",
+  "space-3": "0.75rem",
+  "space-4": "1rem",
+  "space-5": "1.25rem",
+  "space-6": "1.5rem",
+  "space-7": "1.75rem",
+  "space-8": "2rem",
+  "space-9": "2.25rem",
+  "space-10": "2.5rem",
+  "space-11": "2.75rem",
+  "space-12": "3rem",
+  "space-13": "3.5rem",
+  "space-14": "3.75rem",
+  "space-15": "4rem",
+  "space-16": "4.25rem",
+  "space-17": "5rem",
+  "space-18": "6rem",
   "surface": {
     "50": "#ffffff",
     "100": "#f7f9fd",
@@ -380,6 +403,8 @@ export const twVariables = {
     "0": "0px"
   },
   "tokenSetOrder": {
-    "0": "global"
+    "0": "global",
+    "1": "space/Mode 1",
+    "2": "breakpoints/Mode 1"
   }
 }
