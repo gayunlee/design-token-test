@@ -189,9 +189,9 @@
       "type": "color"
     },
     "200": {
-      "value": "#7ec997",
+      "value": "#f0c776",
       "type": "color",
-      "oldValue": "#f8e749"
+      "oldValue": "#7ec997"
     },
     "300": {
       "description": "This is the color base of primary.",
