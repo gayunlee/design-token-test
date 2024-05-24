@@ -16,11 +16,16 @@ const config: Config = {
         primary: twVariables.primary,
         secondary: twVariables.secondary,
       },
+      borderColor: {
+        primary: twVariables.primary,
+        secondary: twVariables.secondary,
+      },
       color: {
         primary: twVariables.primary,
         secondary: twVariables.secondary,
       },
       textColor: {
+        surface: twVariables.surface,
         primary: twVariables.primary,
         secondary: twVariables.secondary,
       },
