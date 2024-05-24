@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <main className="p-10 w-full h-[300px] bg-surface-200">
+    <main className="p-10 w-full h-screen h-[300px] bg-surface-100">
       <h1 className="mb-3 text-primary-200 heading-xl-bold">Cupidatat</h1>
       <h3 className="mb-10 text-secondary-200 heading-md-bold">
         Est esse eiusmod consequat voluptate occaecat incididunt aliqua veniam

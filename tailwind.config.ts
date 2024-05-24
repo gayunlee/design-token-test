@@ -12,7 +12,7 @@ const config: Config = {
   theme: {
     extend: {
       backgroundColor: {
-        ...twVariables.surface,
+        surface: twVariables.surface,
       },
       textColor: {
         primary: twVariables.primary,
