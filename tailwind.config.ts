@@ -12,10 +12,11 @@ const config: Config = {
   theme: {
     extend: {
       backgroundColor: {
-        ...twVariables.bg,
+        ...twVariables.surface,
       },
       textColor: {
-        ...twVariables.colors,
+        primary: twVariables.primary,
+        secondary: twVariables.secondary,
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
@@ -26,7 +27,7 @@ const config: Config = {
         ...twVariables.fontFamilies,
       },
       fontSize: {
-        ...twVariables.fontSizes,
+        ...twVariables.fontSize,
       },
       colors: {
         "accent-1": "#FAFAFA",

@@ -1,7 +1,7 @@
 const fs = require("fs");
 const data = require("./tw.json");
 
-const MULTI_VALUE_FIELDS = ["typography"];
+const MULTI_VALUE_FIELDS = ["heading-xl", "heading-lg", "heading-md"];
 
 const formatValuesToString = (obj) => {
   const formatted = {};
