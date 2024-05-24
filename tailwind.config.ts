@@ -13,6 +13,12 @@ const config: Config = {
     extend: {
       backgroundColor: {
         surface: twVariables.surface,
+        primary: twVariables.primary,
+        secondary: twVariables.secondary,
+      },
+      color: {
+        primary: twVariables.primary,
+        secondary: twVariables.secondary,
       },
       textColor: {
         primary: twVariables.primary,
