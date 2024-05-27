@@ -1,830 +1,164 @@
 {
-  "sm": {
-    "value": "22.5rem",
-    "type": "dimension",
-    "parent": "breakpoints/Mode 1",
-    "description": ""
+  "AppColors": {
+    "pink100": {
+      "value": "#ef9680",
+      "type": "color"
+    },
+    "pink200": {
+      "value": "#ff287a",
+      "type": "color"
+    },
+    "pink300": {
+      "value": "#ff797d",
+      "type": "color"
+    },
+    "red100": {
+      "value": "#ed3738",
+      "type": "color"
+    },
+    "red200": {
+      "value": "#e65531",
+      "type": "color"
+    },
+    "blue100": {
+      "value": "#5188f0",
+      "type": "color"
+    },
+    "blue200": {
+      "value": "#077df3",
+      "type": "color"
+    },
+    "blue300": {
+      "value": "#a3f0f0",
+      "type": "color"
+    },
+    "yellow100": {
+      "value": "#fea82f",
+      "type": "color"
+    },
+    "gradient100": {
+      "description": "강조하는 색상\n45도 그라디언트",
+      "value": "linear-gradient(135deg, #2acf89 0%, #09cecb 100%)",
+      "type": "color"
+    },
+    "gradient200": {
+      "value": "linear-gradient(90deg, #00d063 0%, #00aa8b 100%)",
+      "type": "color"
+    },
+    "green100": {
+      "value": "#00d063",
+      "type": "color"
+    },
+    "green200": {
+      "value": "#00aa8b",
+      "type": "color"
+    },
+    "green300": {
+      "description": "포인트그린컬러 \nNew, Chip 관련",
+      "value": "#2acf89",
+      "type": "color"
+    },
+    "green400": {
+      "description": "알림표현컬러",
+      "value": "#00d063",
+      "type": "color"
+    },
+    "green500": {
+      "value": "#00bb7b",
+      "type": "color"
+    },
+    "green600": {
+      "value": "#55b880",
+      "type": "color"
+    }
   },
-  "md": {
-    "value": "48rem",
-    "type": "dimension",
-    "parent": "breakpoints/Mode 1",
-    "description": ""
+  "GreyColors": {
+    "black100": {
+      "value": "#1f3558",
+      "type": "color"
+    },
+    "black200": {
+      "description": "라벨의 백그라운드 컬러",
+      "value": "#181e33",
+      "type": "color"
+    },
+    "black300": {
+      "value": "#1c2d4f",
+      "type": "color"
+    },
+    "black400": {
+      "value": "#4b659c",
+      "type": "color"
+    },
+    "grey100": {
+      "value": "#e6eaf1",
+      "type": "color"
+    },
+    "grey200": {
+      "description": "서브 배경색 / 좋아요 라운드선",
+      "value": "#eaeef4",
+      "type": "color"
+    },
+    "grey300": {
+      "value": "#c3cbd8",
+      "type": "color"
+    },
+    "grey400": {
+      "value": "#f3f4f8",
+      "type": "color"
+    },
+    "grey500": {
+      "value": "#fafafc",
+      "type": "color"
+    },
+    "grey600": {
+      "value": "#98a0b7",
+      "type": "color"
+    },
+    "grey700": {
+      "value": "#aab0c3",
+      "type": "color"
+    },
+    "grey800": {
+      "value": "#b1b8c0",
+      "type": "color"
+    },
+    "grey900": {
+      "value": "#b2b9c6",
+      "type": "color"
+    },
+    "grey1000": {
+      "value": "#99a0b5",
+      "type": "color"
+    }
   },
-  "lg": {
-    "value": "80rem",
-    "type": "dimension",
-    "parent": "breakpoints/Mode 1",
-    "description": ""
-  },
-  "xl": {
-    "value": "96rem",
-    "type": "dimension",
-    "parent": "breakpoints/Mode 1",
-    "description": ""
-  },
-  "space-0": {
-    "value": "0rem",
-    "type": "dimension",
-    "parent": "space/Mode 1",
-    "description": ""
-  },
-  "space-1": {
-    "value": "0.25rem",
-    "type": "dimension",
-    "parent": "space/Mode 1",
-    "description": ""
-  },
-  "space-2": {
-    "value": "0.5rem",
-    "type": "dimension",
-    "parent": "space/Mode 1",
-    "description": ""
-  },
-  "space-3": {
-    "value": "0.75rem",
-    "type": "dimension",
-    "parent": "space/Mode 1",
-    "description": ""
-  },
-  "space-4": {
-    "value": "1rem",
-    "type": "dimension",
-    "parent": "space/Mode 1",
-    "description": ""
-  },
-  "space-5": {
-    "value": "1.25rem",
-    "type": "dimension",
-    "parent": "space/Mode 1",
-    "description": ""
-  },
-  "space-6": {
-    "value": "1.5rem",
-    "type": "dimension",
-    "parent": "space/Mode 1",
-    "description": ""
-  },
-  "space-7": {
-    "value": "1.75rem",
-    "type": "dimension",
-    "parent": "space/Mode 1",
-    "description": ""
-  },
-  "space-8": {
-    "value": "2rem",
-    "type": "dimension",
-    "parent": "space/Mode 1",
-    "description": ""
-  },
-  "space-9": {
-    "value": "2.25rem",
-    "type": "dimension",
-    "parent": "space/Mode 1",
-    "description": ""
-  },
-  "space-10": {
-    "value": "2.5rem",
-    "type": "dimension",
-    "parent": "space/Mode 1",
-    "description": ""
-  },
-  "space-11": {
-    "value": "2.75rem",
-    "type": "dimension",
-    "parent": "space/Mode 1",
-    "description": ""
-  },
-  "space-12": {
-    "value": "3rem",
-    "type": "dimension",
-    "parent": "space/Mode 1",
-    "description": ""
-  },
-  "space-13": {
-    "value": "3.5rem",
-    "type": "dimension",
-    "parent": "space/Mode 1",
-    "description": ""
-  },
-  "space-14": {
-    "value": "3.75rem",
-    "type": "dimension",
-    "parent": "space/Mode 1",
-    "description": ""
-  },
-  "space-15": {
-    "value": "4rem",
-    "type": "dimension",
-    "parent": "space/Mode 1",
-    "description": ""
-  },
-  "space-16": {
-    "value": "4.25rem",
-    "type": "dimension",
-    "parent": "space/Mode 1",
-    "description": ""
-  },
-  "space-17": {
-    "value": "5rem",
-    "type": "dimension",
-    "parent": "space/Mode 1",
-    "description": ""
-  },
-  "space-18": {
-    "value": "6rem",
-    "type": "dimension",
-    "parent": "space/Mode 1",
-    "description": ""
-  },
-  "surface": {
-    "50": {
+  "NeutralColors": {
+    "White": {
       "value": "#ffffff",
       "type": "color"
     },
-    "100": {
-      "value": "#f7f9fd",
-      "type": "color"
-    },
-    "200": {
-      "value": "#ecedee",
-      "type": "color"
-    },
-    "300": {
-      "value": "#cbcfd2",
-      "type": "color"
-    },
-    "400": {
-      "value": "#a7aeb4",
-      "type": "color"
-    },
-    "500": {
-      "value": "#8e979f",
-      "type": "color"
-    },
-    "600": {
-      "value": "#6b767f",
-      "type": "color"
-    },
-    "700": {
-      "value": "#4f575e",
-      "type": "color"
-    },
-    "800": {
-      "value": "#33383d",
-      "type": "color"
-    },
-    "900": {
-      "value": "#202327",
+    "Black": {
+      "value": "#000000",
       "type": "color"
     }
   },
-  "primary": {
-    "50": {
-      "value": "#f8f5ff",
-      "type": "color"
-    },
-    "100": {
-      "value": "#b99cfc",
-      "type": "color"
-    },
-    "200": {
-      "value": "#f0c776",
-      "type": "color",
-      "oldValue": "#7ec997"
-    },
-    "300": {
-      "description": "This is the color base of primary.",
-      "value": "#6528f7",
-      "type": "color"
-    },
-    "400": {
-      "value": "#501bce",
-      "type": "color"
-    }
-  },
-  "secondary": {
-    "50": {
-      "value": "#e8f1fc",
-      "type": "color"
-    },
-    "100": {
-      "value": "#77a9ee",
-      "type": "color",
-      "oldValue": "#77ee91"
-    },
-    "200": {
-      "value": "#1b6ddf",
-      "type": "color"
-    },
-    "300": {
-      "value": "#1450a3",
-      "type": "color"
-    },
-    "400": {
-      "value": "#114388",
-      "type": "color"
-    }
-  },
-  "success": {
-    "50": {
-      "value": "#f6fefb",
-      "type": "color"
-    },
-    "100": {
-      "value": "#1bc590",
-      "type": "color"
-    },
-    "200": {
-      "value": "#12825f",
-      "type": "color"
-    },
-    "300": {
-      "value": "#0e674b",
-      "type": "color"
-    },
-    "400": {
-      "value": "#0a4834",
-      "type": "color"
-    }
-  },
-  "warning": {
-    "50": {
-      "value": "#fffdfa",
-      "type": "color"
-    },
-    "100": {
-      "value": "#f9dbb5",
-      "type": "color"
-    },
-    "200": {
-      "value": "#f2ab53",
-      "type": "color"
-    },
-    "300": {
-      "value": "#ee9322",
-      "type": "color"
-    },
-    "400": {
-      "value": "#a6620d",
-      "type": "color"
-    }
-  },
-  "dark": {
-    "50": {
-      "value": "#121212",
-      "type": "color"
-    },
-    "100": {
-      "value": "#161616",
-      "type": "color"
-    },
-    "200": {
-      "value": "#1a1a1a",
-      "type": "color"
-    },
-    "300": {
-      "value": "#1c1c1c",
-      "type": "color"
-    },
-    "400": {
-      "value": "#1e1e1e",
-      "type": "color"
-    }
-  },
-  "danger": {
-    "50": {
-      "value": "#fbeaea",
-      "type": "color"
-    },
-    "100": {
-      "value": "#e16b6b",
-      "type": "color"
-    },
-    "200": {
-      "value": "#c92929",
-      "type": "color"
-    },
-    "300": {
-      "value": "#a92323",
-      "type": "color"
-    },
-    "400": {
-      "value": "#6e1717",
-      "type": "color"
-    }
-  },
-  "opacity": {
-    "primary": {
-      "value": "#7d49f826",
-      "type": "color"
-    },
-    "secondary": {
-      "value": "#1c6fe326",
-      "type": "color"
-    },
-    "danger": {
-      "value": "#c9292926",
-      "type": "color"
-    },
-    "success": {
-      "value": "#12825f26",
-      "type": "color"
-    },
-    "warning": {
-      "value": "#f2ab5326",
-      "type": "color"
-    },
-    "modal": {
-      "value": "#121212eb",
-      "type": "color"
-    }
-  },
-  "flat": {
-    "value": {
-      "color": "#2468930a",
-      "type": "dropShadow",
-      "x": 0,
-      "y": 1,
-      "blur": 2,
-      "spread": 0
-    },
-    "type": "boxShadow"
-  },
-  "overlay": {
-    "value": {
-      "color": "#2468930a",
-      "type": "dropShadow",
-      "x": 0,
-      "y": 4,
-      "blur": 4,
-      "spread": -1
-    },
-    "type": "boxShadow"
-  },
-  "sticky-nav": {
-    "value": {
-      "color": "#2468930a",
-      "type": "dropShadow",
-      "x": 0,
-      "y": 4,
-      "blur": 8,
-      "spread": 0
-    },
-    "type": "boxShadow"
-  },
-  "dialog": {
-    "value": {
-      "color": "#2468930a",
-      "type": "dropShadow",
-      "x": 0,
-      "y": 8,
-      "blur": 12,
-      "spread": 0
-    },
-    "type": "boxShadow"
-  },
-  "fontFamilies": {
-    "ibm-plex-sans": {
-      "value": "IBM Plex Sans",
-      "type": "fontFamilies"
-    }
-  },
-  "lineHeights": {
-    "0": {
-      "value": 78,
-      "type": "lineHeights"
-    },
-    "1": {
-      "value": 64,
-      "type": "lineHeights"
-    },
-    "2": {
-      "value": 48,
-      "type": "lineHeights"
-    },
-    "3": {
-      "value": 34,
-      "type": "lineHeights"
-    },
-    "4": {
-      "value": 30,
-      "type": "lineHeights"
-    },
-    "5": {
-      "value": 28,
-      "type": "lineHeights"
-    },
-    "6": {
-      "value": 24,
-      "type": "lineHeights"
-    },
-    "7": {
-      "value": 20,
-      "type": "lineHeights"
-    },
-    "8": {
-      "value": 18,
-      "type": "lineHeights"
-    },
-    "9": {
-      "value": 14,
-      "type": "lineHeights"
-    }
-  },
-  "fontWeights": {
-    "ibm-plex-sans-0": {
-      "value": "Regular",
-      "type": "fontWeights"
-    },
-    "ibm-plex-sans-1": {
-      "value": "Bold",
-      "type": "fontWeights"
-    }
-  },
-  "fontSize": {
-    "0": {
-      "value": 10,
-      "type": "fontSizes"
-    },
-    "1": {
-      "value": 12,
-      "type": "fontSizes"
-    },
-    "2": {
-      "value": 14,
-      "type": "fontSizes"
-    },
-    "3": {
-      "value": 16,
-      "type": "fontSizes"
-    },
-    "4": {
-      "value": 18,
-      "type": "fontSizes"
-    },
-    "5": {
-      "value": 20,
-      "type": "fontSizes"
-    },
-    "6": {
-      "value": 24,
-      "type": "fontSizes"
-    },
-    "7": {
-      "value": 34,
-      "type": "fontSizes"
-    },
-    "8": {
-      "value": 48,
-      "type": "fontSizes"
-    },
-    "9": {
-      "value": 60,
-      "type": "fontSizes"
-    }
-  },
-  "letterSpacing": {
-    "0": {
-      "value": "0%",
-      "type": "letterSpacing"
-    }
-  },
-  "paragraphSpacing": {
-    "0": {
-      "value": 0,
-      "type": "paragraphSpacing"
-    }
-  },
-  "heading-xl": {
-    "regular": {
+  "shadow": {
+    "(o,o) B15, 13%": {
       "value": {
-        "fontFamily": "IBM Plex Sans",
-        "fontWeight": "Regular",
-        "lineHeight": 78,
-        "fontSize": 60,
-        "letterSpacing": "0%",
-        "paragraphSpacing": 0,
-        "paragraphIndent": "0px",
-        "textCase": "none",
-        "textDecoration": "none"
+        "color": "#1c2d4f21",
+        "type": "dropShadow",
+        "x": 0,
+        "y": 0,
+        "blur": 15,
+        "spread": 0
       },
-      "type": "typography"
-    },
-    "bold": {
-      "value": {
-        "fontFamily": "IBM Plex Sans",
-        "fontWeight": "Bold",
-        "lineHeight": 78,
-        "fontSize": 60,
-        "letterSpacing": "0%",
-        "paragraphSpacing": 0,
-        "paragraphIndent": "0px",
-        "textCase": "none",
-        "textDecoration": "none"
-      },
-      "type": "typography"
-    }
-  },
-  "heading-lg": {
-    "regular": {
-      "value": {
-        "fontFamily": "IBM Plex Sans",
-        "fontWeight": "Regular",
-        "lineHeight": 64,
-        "fontSize": 48,
-        "letterSpacing": "0%",
-        "paragraphSpacing": 0,
-        "paragraphIndent": "0px",
-        "textCase": "none",
-        "textDecoration": "none"
-      },
-      "type": "typography"
-    },
-    "bold": {
-      "value": {
-        "fontFamily": "IBM Plex Sans",
-        "fontWeight": "Bold",
-        "lineHeight": 64,
-        "fontSize": 48,
-        "letterSpacing": "0%",
-        "paragraphSpacing": 0,
-        "paragraphIndent": "0px",
-        "textCase": "none",
-        "textDecoration": "none"
-      },
-      "type": "typography"
-    }
-  },
-  "heading-md": {
-    "regular": {
-      "value": {
-        "fontFamily": "IBM Plex Sans",
-        "fontWeight": "Regular",
-        "lineHeight": 48,
-        "fontSize": 34,
-        "letterSpacing": "0%",
-        "paragraphSpacing": 0,
-        "paragraphIndent": "0px",
-        "textCase": "none",
-        "textDecoration": "none"
-      },
-      "type": "typography"
-    },
-    "bold": {
-      "value": {
-        "fontFamily": "IBM Plex Sans",
-        "fontWeight": "Bold",
-        "lineHeight": 48,
-        "fontSize": 34,
-        "letterSpacing": "0%",
-        "paragraphSpacing": 0,
-        "paragraphIndent": "0px",
-        "textCase": "none",
-        "textDecoration": "none"
-      },
-      "type": "typography"
-    }
-  },
-  "title-xl": {
-    "regular": {
-      "value": {
-        "fontFamily": "IBM Plex Sans",
-        "fontWeight": "Regular",
-        "lineHeight": 34,
-        "fontSize": 24,
-        "letterSpacing": "0%",
-        "paragraphSpacing": 0,
-        "paragraphIndent": "0px",
-        "textCase": "none",
-        "textDecoration": "none"
-      },
-      "type": "typography"
-    },
-    "bold": {
-      "value": {
-        "fontFamily": "IBM Plex Sans",
-        "fontWeight": "Bold",
-        "lineHeight": 34,
-        "fontSize": 24,
-        "letterSpacing": "0%",
-        "paragraphSpacing": 0,
-        "paragraphIndent": "0px",
-        "textCase": "none",
-        "textDecoration": "none"
-      },
-      "type": "typography"
-    }
-  },
-  "title-lg": {
-    "regular": {
-      "value": {
-        "fontFamily": "IBM Plex Sans",
-        "fontWeight": "Regular",
-        "lineHeight": 30,
-        "fontSize": 20,
-        "letterSpacing": "0%",
-        "paragraphSpacing": 0,
-        "paragraphIndent": "0px",
-        "textCase": "none",
-        "textDecoration": "none"
-      },
-      "type": "typography"
-    },
-    "bold": {
-      "value": {
-        "fontFamily": "IBM Plex Sans",
-        "fontWeight": "Bold",
-        "lineHeight": 30,
-        "fontSize": 20,
-        "letterSpacing": "0%",
-        "paragraphSpacing": 0,
-        "paragraphIndent": "0px",
-        "textCase": "none",
-        "textDecoration": "none"
-      },
-      "type": "typography"
-    }
-  },
-  "body-xl": {
-    "regular": {
-      "value": {
-        "fontFamily": "IBM Plex Sans",
-        "fontWeight": "Regular",
-        "lineHeight": 28,
-        "fontSize": 18,
-        "letterSpacing": "0%",
-        "paragraphSpacing": 0,
-        "paragraphIndent": "0px",
-        "textCase": "none",
-        "textDecoration": "none"
-      },
-      "type": "typography"
-    },
-    "bold": {
-      "value": {
-        "fontFamily": "IBM Plex Sans",
-        "fontWeight": "Bold",
-        "lineHeight": 28,
-        "fontSize": 18,
-        "letterSpacing": "0%",
-        "paragraphSpacing": 0,
-        "paragraphIndent": "0px",
-        "textCase": "none",
-        "textDecoration": "none"
-      },
-      "type": "typography"
-    }
-  },
-  "body-lg": {
-    "regular": {
-      "value": {
-        "fontFamily": "IBM Plex Sans",
-        "fontWeight": "Regular",
-        "lineHeight": 24,
-        "fontSize": 16,
-        "letterSpacing": "0%",
-        "paragraphSpacing": 0,
-        "paragraphIndent": "0px",
-        "textCase": "none",
-        "textDecoration": "none"
-      },
-      "type": "typography"
-    },
-    "bold": {
-      "value": {
-        "fontFamily": "IBM Plex Sans",
-        "fontWeight": "Bold",
-        "lineHeight": 24,
-        "fontSize": 16,
-        "letterSpacing": "0%",
-        "paragraphSpacing": 0,
-        "paragraphIndent": "0px",
-        "textCase": "none",
-        "textDecoration": "none"
-      },
-      "type": "typography"
-    }
-  },
-  "body-md": {
-    "regular": {
-      "value": {
-        "fontFamily": "IBM Plex Sans",
-        "fontWeight": "Regular",
-        "lineHeight": 20,
-        "fontSize": 14,
-        "letterSpacing": "0%",
-        "paragraphSpacing": 0,
-        "paragraphIndent": "0px",
-        "textCase": "none",
-        "textDecoration": "none"
-      },
-      "type": "typography"
-    },
-    "bold": {
-      "value": {
-        "fontFamily": "IBM Plex Sans",
-        "fontWeight": "Bold",
-        "lineHeight": 20,
-        "fontSize": 14,
-        "letterSpacing": "0%",
-        "paragraphSpacing": 0,
-        "paragraphIndent": "0px",
-        "textCase": "none",
-        "textDecoration": "none"
-      },
-      "type": "typography"
-    }
-  },
-  "body-sm": {
-    "regular": {
-      "value": {
-        "fontFamily": "IBM Plex Sans",
-        "fontWeight": "Regular",
-        "lineHeight": 18,
-        "fontSize": 12,
-        "letterSpacing": "0%",
-        "paragraphSpacing": 0,
-        "paragraphIndent": "0px",
-        "textCase": "none",
-        "textDecoration": "none"
-      },
-      "type": "typography"
-    },
-    "bold": {
-      "value": {
-        "fontFamily": "IBM Plex Sans",
-        "fontWeight": "Bold",
-        "lineHeight": 18,
-        "fontSize": 12,
-        "letterSpacing": "0%",
-        "paragraphSpacing": 0,
-        "paragraphIndent": "0px",
-        "textCase": "none",
-        "textDecoration": "none"
-      },
-      "type": "typography"
-    }
-  },
-  "caption": {
-    "regular": {
-      "value": {
-        "fontFamily": "IBM Plex Sans",
-        "fontWeight": "Regular",
-        "lineHeight": 14,
-        "fontSize": 10,
-        "letterSpacing": "0%",
-        "paragraphSpacing": 0,
-        "paragraphIndent": "0px",
-        "textCase": "none",
-        "textDecoration": "none"
-      },
-      "type": "typography"
-    },
-    "bold": {
-      "value": {
-        "fontFamily": "IBM Plex Sans",
-        "fontWeight": "Bold",
-        "lineHeight": 14,
-        "fontSize": 10,
-        "letterSpacing": "0%",
-        "paragraphSpacing": 0,
-        "paragraphIndent": "0px",
-        "textCase": "none",
-        "textDecoration": "none"
-      },
-      "type": "typography"
-    }
-  },
-  "textCase": {
-    "none": {
-      "value": "none",
-      "type": "textCase"
-    }
-  },
-  "textDecoration": {
-    "none": {
-      "value": "none",
-      "type": "textDecoration"
-    }
-  },
-  "paragraphIndent": {
-    "0": {
-      "value": "0px",
-      "type": "dimension"
+      "type": "boxShadow",
+      "description": "카드 쉐도우에 사용합니다."
     }
   },
   "tokenSetOrder": {
     "0": {
       "value": "global",
-      "type": "other"
-    },
-    "1": {
-      "value": "space/Mode 1",
-      "type": "other"
-    },
-    "2": {
-      "value": "breakpoints/Mode 1",
       "type": "other"
     }
   }
