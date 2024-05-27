@@ -29,3 +29,14 @@ jobs:
         run: gh pr create -B main -H design --title '디자인 토큰 업데이트' --body '디자인 토큰 업데이트 및 css 변수 변환'
         env:
           GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+
+      - name: send slack message
+        uses: 8398a7/action-slack@v3
+        with:
+          mention: "here"
+          if_mention: failure
+          status: ${{ job.status }}
+          fields: workflow,job,commit,message,ref,author,took
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        if: always()
