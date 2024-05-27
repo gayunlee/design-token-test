@@ -37,7 +37,7 @@ export const twVariables = {
   "primary": {
     "50": "#f8f5ff",
     "100": "#b99cfc",
-    "200": "#f0c776",
+    "200": "#52cbff",
     "300": "#6528f7",
     "400": "#501bce"
   },
